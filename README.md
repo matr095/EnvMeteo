@@ -1,2 +1,2 @@
-# Java
-Java projects
+# Environnement météo
+Projet codé en Java
