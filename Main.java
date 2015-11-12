@@ -47,7 +47,7 @@ public class Main extends JPanel implements ActionListener {
 	
 	public void fenetre() {
 		JFrame fenetre = new JFrame("Environnement Météo par MatR.fr");	
-		fenetre.setSize(480,272);
+		fenetre.setSize(480,300);
 		fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	
 		fenetre.add(this);
 		fenetre.setContentPane(this);
@@ -55,7 +55,7 @@ public class Main extends JPanel implements ActionListener {
 		this.add(valider);
 		//this.add(soleil);
 		valider.setBackground(Color.BLUE);
-		valider.setForeground(Color.BLUE);
+		valider.setForeground(Color.WHITE);
 		valider.setBorderPainted(true);;
 		valider.addActionListener(this);
 		//rafraichir
